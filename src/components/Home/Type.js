@@ -6,11 +6,11 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Web3",
-          "NFT",
-          "Crypto",
-          "Negocios",
-          "Front End"
+          "Web3 Building",
+          "Colecciones de NFTs",
+          "Landing Websites",
+          "Front and Backend",
+          "Fotografia"
         ],
         autoStart: true,
         loop: true,
