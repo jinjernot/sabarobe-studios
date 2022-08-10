@@ -9,23 +9,14 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
+        <br />
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
         {"\n"}
         {"\n"}
-
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
-        )}
+      
+      
       </Card.Body>
     </Card>
   );

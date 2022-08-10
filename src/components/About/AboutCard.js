@@ -6,7 +6,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "center" }}>
+          <p style={{ textAlign: "justify" }}>
             Somos un equipo de desarrolladores y artistas mexicanos interesados en contribuir al ecosistema de la web 3.0 en Mexico, nuestra meta es continuar construyendo y creando comunidad con todos nuestros amigos y seguidores.
           </p>
         </blockquote>

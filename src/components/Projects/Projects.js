@@ -21,7 +21,7 @@ function Projects() {
               imgPath={cholo}
               isBlog={false}
               title="Pixel Homies"
-              description="Pixel Homies es una coleccion de 1000 personajes coleccionables inspirados en la cultura mexicana con escenas clasicas de Guadalajara, Jalisco. Cada Pixel Homie fue generado algoritmicamente y cuentan con mas de 200 distintas variantes las cuales fueron hechas a mano, pixel por pixel. El precio por mint es de 0.015 ETH y seran lanzados en la red de Ethereum."
+              description="Pixel Homies es una coleccion de 1000 personajes coleccionables inspirados en la cultura mexicana con escenas clasicas de Guadalajara, Jalisco. Cada Pixel Homie fue generado algoritmicamente y cuentan con mas de 200 distintas variantes las cuales fueron hechas a mano, pixel por pixel."
             />
           </Col>
 
@@ -29,8 +29,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Muebles Vaga"
-              description="La muebleria de oscarin carnales a huevo nomas puse este texto para ver si se acomoda perro arre arre"
+              title="Tokenización Inmobiliaria (Coming soon)"
+              description="Realizamos la tokenización para tus inmuebles."
             />
           </Col>
 
@@ -38,8 +38,8 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="NFTools"
-              description="algoritmos para colecciones de nfts generativas"
+              title="NFTools (Coming soon)"
+              description="Herramientas para colecciones de NFTs generativas con las cuales puedes randomizar los atributos de tus personajes o arte."
             />
           </Col>
 

@@ -19,18 +19,18 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "20px",
+              paddingTop: "140px",
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.6em", paddingBottom: "20px"}}>
-                <strong>Quienes somos?</strong>
+            <h1 style={{ fontSize: "2.6rem", paddingBottom: "20px"}}>
+                <strong>¿Quienes somos?</strong>
             </h1>
             <Aboutcard />
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "90px", paddingBottom: "90px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
@@ -39,6 +39,9 @@ function About() {
 
             <h1 style={{ fontSize: "2.6em", paddingBottom: "20px" }}>
                 <strong>Conoce al equipo</strong>
+                <br />
+                <br />
+                <br />
             </h1>
         <Row>
           <Col>
@@ -46,10 +49,10 @@ function About() {
             <h3 className="team-name">
             <strong>David Villarreal</strong>
             </h3>
-                Senior Developer
+                Full Stack Developer
                   <br />
                   <a
-                    href="https://twitter.com/Sabarobe"
+                    href="https://twitter.com/mumfordvs"
                     target="_blank"
                     rel="noreferrer"
                     className="about-social-icons"
@@ -66,10 +69,10 @@ function About() {
           <h3 className="team-name">
           <strong>Jorge Luis Gomez</strong>
           </h3>
-              Senior Developer
+              Artista gráfico/Fotografía
                 <br />
                 <a
-                  href="https://twitter.com/Sabarobe"
+                  href="https://twitter.com/Yorchhh"
                   target="_blank"
                   rel="noreferrer"
                   className="about-social-icons"
@@ -88,10 +91,10 @@ function About() {
           <h3 className="team-name">
           <strong>Gilberto Garcia</strong>
           </h3>
-              Senior Developer
+              Full Stack Developer
                 <br />
                 <a
-                  href="https://twitter.com/Sabarobe"
+                  href="https://twitter.com/norindes"
                   target="_blank"
                   rel="noreferrer"
                   className="about-social-icons"
@@ -108,10 +111,10 @@ function About() {
           <h3 className="team-name">
           <strong>Asdrubal Nuño</strong>
           </h3>
-              Senior Developer
+              Senior Full Stack Developer/DevOps
                 <br />
                 <a
-                  href="https://twitter.com/Sabarobe"
+                  href="https://twitter.com/azdcorp"
                   target="_blank"
                   rel="noreferrer"
                   className="about-social-icons"
@@ -130,10 +133,10 @@ function About() {
           <h3 className="team-name">
           <strong>Marlon Jimenez</strong>
           </h3>
-              Senior Developer
+              Proyect Manager/Social Media
                 <br />
                 <a
-                  href="https://twitter.com/Sabarobe"
+                  href="https://twitter.com/JSabarobe"
                   target="_blank"
                   rel="noreferrer"
                   className="about-social-icons"
