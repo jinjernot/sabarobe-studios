@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-
-import {
-  AiOutlineTwitter,
-} from "react-icons/ai";
+import AboutTeam from "./AboutTeam";
+import Mumf from "../../Assets/Team/Mumf.png";
+import Yorch from "../../Assets/Team/Yorch.png";
+import Gil from "../../Assets/Team/Gil.png";
+import Asdru from "../../Assets/Team/Asdru.png";
+import Joe from "../../Assets/Team/Joe.png";
 
 
 function About() {
@@ -26,126 +26,68 @@ function About() {
             <h1 style={{ fontSize: "2.6rem", paddingBottom: "20px"}}>
                 <strong>¿Quienes somos?</strong>
             </h1>
-            <Aboutcard />
+            Somos un equipo de desarrolladores y artistas mexicanos interesados en contribuir al ecosistema de la web 3.0 en Mexico, nuestra meta es continuar construyendo y creando comunidad con todos nuestros amigos y seguidores.
           </Col>
           <Col
             md={5}
             style={{ paddingTop: "90px", paddingBottom: "90px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
 
             <h1 style={{ fontSize: "2.6em", paddingBottom: "20px" }}>
                 <strong>Conoce al equipo</strong>
-                <br />
-                <br />
-                <br />
+
             </h1>
-        <Row>
-          <Col>
-            <p>
-            <h3 className="team-name">
-            <strong>David Villarreal</strong>
-            </h3>
-                Full Stack Developer
-                  <br />
-                  <a
-                    href="https://twitter.com/mumfordvs"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="about-social-icons"
-                  >
-                    <AiOutlineTwitter />
-                  </a>
-
-                <br />
-            </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={6} className="project-card">
+            <AboutTeam
+              imgPath={Mumf}
+              isBlog={false}
+              title="David Villarreal"
+              description="Full Stack Developer"
+            />
           </Col>
 
-          <Col>
-          <p>
-          <h3 className="team-name">
-          <strong>Jorge Luis Gomez</strong>
-          </h3>
-              Artista gráfico/Fotografía
-                <br />
-                <a
-                  href="https://twitter.com/Yorchhh"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="about-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-
-              <br />
-          </p>
+          <Col md={6} className="project-card">
+            <AboutTeam
+              imgPath={Yorch}
+              isBlog={false}
+              title="Jorge Gómez"
+              description="Artista Gráfico / Fotografía"
+            />
           </Col>
         </Row>
 
-        <Row>
-          <Col>
-          <p>
-          <h3 className="team-name">
-          <strong>Gilberto Garcia</strong>
-          </h3>
-              Full Stack Developer
-                <br />
-                <a
-                  href="https://twitter.com/norindes"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="about-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-
-              <br />
-          </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={6} className="project-card">
+            <AboutTeam
+              imgPath={Gil}
+              isBlog={false}
+              title="Gilberto García"
+              description="Full Stack Developer"
+            />
           </Col>
 
-          <Col>
-          <p>
-          <h3 className="team-name">
-          <strong>Asdrubal Nuño</strong>
-          </h3>
-              Senior Full Stack Developer/DevOps
-                <br />
-                <a
-                  href="https://twitter.com/azdcorp"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="about-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-
-              <br />
-          </p>
+          <Col md={6} className="project-card">
+            <AboutTeam
+              imgPath={Asdru}
+              isBlog={false}
+              title="Asdrubal Nuño"
+              description="Senior Full Stack Developer / DevOps"
+            />
           </Col>
         </Row>
 
-        <Row>
-          <Col>
-          <p>
-          <h3 className="team-name">
-          <strong>Marlon Jimenez</strong>
-          </h3>
-              Proyect Manager/Social Media
-                <br />
-                <a
-                  href="https://twitter.com/JSabarobe"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="about-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              <br />
-              <br />
-          </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={6} className="project-card">
+            <AboutTeam
+              imgPath={Joe}
+              isBlog={false}
+              title="Marlon Jiménez"
+              description="Project Manager / Social Media"
+            />
           </Col>
         </Row>
 

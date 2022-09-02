@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
+import NFTools from "../../Assets/Projects/codeEditor.png";
 import cholo from "../../Assets/Projects/cholo.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Token from "../../Assets/Projects/blog.png";
 
 function Projects() {
 
@@ -27,7 +27,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Token}
               isBlog={false}
               title="Tokenización Inmobiliaria (Coming soon)"
               description="Realizamos la tokenización para tus inmuebles."
@@ -36,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={NFTools}
               isBlog={false}
               title="NFTools (Coming soon)"
               description="Herramientas para colecciones de NFTs generativas con las cuales puedes randomizar los atributos de tus personajes o arte."
