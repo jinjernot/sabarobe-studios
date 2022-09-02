@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.png";
 import Particle from "../Particle";
 import Type from "./Type";
 import {
@@ -34,11 +33,10 @@ function Home() {
           <Row>
           <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              <strong>Construímos el nuevo internet  </strong>
+              <strong>El futuro de internet ya está aquí</strong>
             </h1>
             <p className="home-about-body">
-            Ayudamos a las empresas en su estrategia de blockchain, proporcionando los recursos necesarios para tener éxito en el lanzamiento, la creación de comunidades y la monetización.
-            Nuestro apoyo y orientación estratégica permite a personas influyentes, marcas y empresas crear microeconomías sostenibles para sus seguidores y comunidades.
+            Desarrollamos aplicaciones Web a la medida que responden a la estrategia de marketing, seleccionando la mejor herramienta para cada proyecto y aportando un valor añadido incluyendo tecnologia Blockchain, con el objetivo de potenciar los negocios de nuestros clientes en Internet, ya sea con colecciones de NFTs o monetización.
               <br />
             </p>
           </Col>
