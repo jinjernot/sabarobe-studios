@@ -16,23 +16,19 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px"}}>
           <Col
-            md={7}
+            md={12}
             style={{
               justifyContent: "center",
-              paddingTop: "140px",
+              paddingTop: "100px",
               paddingBottom: "50px",
             }}
           >
             <h1 style={{ fontSize: "2.6rem", paddingBottom: "20px"}}>
                 <strong>¿Quienes somos?</strong>
             </h1>
+            <p className="home-about-body">
             Somos un equipo de desarrolladores y artistas mexicanos interesados en contribuir al ecosistema de la web 3.0 en Mexico, nuestra meta es continuar construyendo y creando comunidad con todos nuestros amigos y seguidores.
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "90px", paddingBottom: "90px" }}
-            className="about-img"
-          >
+            </p>
           </Col>
         </Row>
 
@@ -41,7 +37,7 @@ function About() {
 
             </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={6} className="project-card">
+          <Col md={6} className="team-card">
             <AboutTeam
               imgPath={Mumf}
               isBlog={false}
@@ -50,7 +46,7 @@ function About() {
             />
           </Col>
 
-          <Col md={6} className="project-card">
+          <Col md={6} className="team-card">
             <AboutTeam
               imgPath={Yorch}
               isBlog={false}
@@ -61,7 +57,7 @@ function About() {
         </Row>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={6} className="project-card">
+        <Col md={6} className="team-card">
             <AboutTeam
               imgPath={Gil}
               isBlog={false}
@@ -70,7 +66,7 @@ function About() {
             />
           </Col>
 
-          <Col md={6} className="project-card">
+          <Col md={6} className="team-card">
             <AboutTeam
               imgPath={Asdru}
               isBlog={false}
@@ -81,7 +77,7 @@ function About() {
         </Row>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={6} className="project-card">
+        <Col md={6} className="team-card">
             <AboutTeam
               imgPath={Joe}
               isBlog={false}
@@ -90,8 +86,6 @@ function About() {
             />
           </Col>
         </Row>
-
-
       </Container>
     </Container>
   );
